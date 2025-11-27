@@ -1,4 +1,4 @@
-# MICNS
+# Codes for conference papers
 
 This repository (currently) contains Python3 code to reproduce the main experiments for our NeurIPS'24 paper [Avoiding Undesired Futures with Minimal Cost in Non-Stationary Environments](https://www.lamda.nju.edu.cn/duwb/MICNS-NeurIPS24/MICNS.pdf) (see this [poster](https://www.lamda.nju.edu.cn/duwb/MICNS-NeurIPS24/MICNS_poster.pdf) for a quick intro) and the ICML'25 paper [Enabling Optimal Decisions in Rehearsal Learning under CARE Condition](https://www.lamda.nju.edu.cn/duwb/CARE-ICML25/CARE.pdf).
 
