@@ -14,7 +14,7 @@ from sklearn.preprocessing import StandardScaler
 if __name__ == "__main__": 
     execution_time = []
     np.random.seed(20240101)
-    data_mat = loadmat('./data/SEM_data.mat')
+    data_mat = loadmat('../data/SEM_data.mat')
     for key in ['__header__', '__version__', '__globals__', 'Site', 'Lat', 'Lon', 'Year', 'Month', 'Day']:
         data_mat.pop(key)
     data = pd.DataFrame({key: value.reshape(-1) for key, value in data_mat.items()})
